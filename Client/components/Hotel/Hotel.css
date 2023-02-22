@@ -1,0 +1,17 @@
+.wrap-detail {
+  min-height: 80vh;
+  padding: 20px 0 50px;
+}
+
+/* khoảng cách với navbar */
+@media (max-width: 991.98px) {
+  .wrap-detail {
+    margin-top: 61px;
+  }
+}
+
+@media (min-width: 992px) {
+  .wrap-detail {
+    margin-top: 91px;
+  }
+}

@@ -1,0 +1,13 @@
+.copyright {
+  color: var(--yellow);
+  background: #001c0c;
+}
+
+.copyright a {
+  text-decoration: none;
+  color: var(--yellow);
+}
+
+.copyright a:hover {
+  color: var(--primary-color);
+}

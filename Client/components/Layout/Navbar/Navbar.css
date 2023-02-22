@@ -1,0 +1,9 @@
+/*** Navbar ***/
+.fixed-top {
+  transition: 0.5s;
+}
+
+.bg-nav-color {
+  background-color: var(--secondary-color);
+  color: var(--yellow);
+}

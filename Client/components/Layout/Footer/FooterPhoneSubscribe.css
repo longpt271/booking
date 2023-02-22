@@ -1,0 +1,7 @@
+.footer-btn-private {
+  background-color: var(--secondary-color);
+}
+.footer-btn-private:hover {
+  background-color: var(--secondary-color-hover);
+  color: var(--primary-color);
+}

@@ -1,0 +1,48 @@
+.listContainer {
+  min-height: 80vh;
+  padding: 20px 0 50px;
+}
+
+.listWrapper {
+  width: 100%;
+  /* max-width: 1200px; */
+  display: flex;
+  gap: 20px;
+}
+
+.listSearch {
+  flex: 1;
+  background-color: #febb02;
+  padding: 10px;
+  border-radius: 10px;
+  position: sticky;
+  top: 10px;
+  height: max-content;
+}
+
+.listResult {
+  flex: 4;
+}
+
+@media (max-width: 767px) {
+  .listWrapper {
+    flex-direction: column;
+  }
+
+  .listSearch {
+    position: relative;
+  }
+}
+
+/* khoảng cách với navbar */
+@media (max-width: 991.98px) {
+  .listContainer {
+    margin-top: 61px;
+  }
+}
+
+@media (min-width: 992px) {
+  .listContainer {
+    margin-top: 91px;
+  }
+}

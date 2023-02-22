@@ -1,0 +1,9 @@
+.hotel-list h4 {
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  .hotel-list {
+    display: block;
+  }
+}

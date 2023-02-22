@@ -1,0 +1,23 @@
+.wrap-trans {
+  min-height: 80vh;
+  padding: 20px 0 50px;
+}
+
+.wrap-trans b {
+  display: inline-block;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+/* khoảng cách với navbar */
+@media (max-width: 991.98px) {
+  .wrap-trans {
+    margin-top: 61px;
+  }
+}
+
+@media (min-width: 992px) {
+  .wrap-trans {
+    margin-top: 91px;
+  }
+}
